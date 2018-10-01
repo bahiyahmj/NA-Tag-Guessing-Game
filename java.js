@@ -1,4 +1,5 @@
 
+window.alert('test')
 // // query form
 // const form = document.getElementById('query-form');
 
@@ -101,8 +102,9 @@ function getTaggedPhotos(tagName) {
 				}
 			}
 		})
+	}
 
-reset();
+// reset();
 // 		// error message if API is not working
 // 		.catch(function(err){
 // 			window.alert('Hey, seems like the tumblr API is down, please try again later.');
@@ -110,4 +112,5 @@ reset();
 // 		})
 // }
 
-// getTaggedPhotos('food')
+getTaggedPhotos('food');
+rest();
